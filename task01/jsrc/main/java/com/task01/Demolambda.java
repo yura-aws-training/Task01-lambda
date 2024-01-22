@@ -7,7 +7,7 @@ import com.syndicate.deployment.annotations.lambda.LambdaHandler;
 import java.util.HashMap;
 import java.util.Map;
 
-@LambdaHandler(lambdaName = "hello-world",
+@LambdaHandler(lambdaName = "hello_world",
 	roleName = "DemoLambda-role",
 	isPublishVersion = true,
 	aliasName = "${lambdas_alias_name}"
